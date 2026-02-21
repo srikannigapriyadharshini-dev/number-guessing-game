@@ -1,0 +1,89 @@
+body{
+    background:linear-gradient(rgb(169, 61, 61),rgb(196, 89, 107),rgb(241, 149, 164))
+}
+h1{
+    text-align:center;
+    font-size: 2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    text-align:center;
+    font-size: 1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.easy{
+   width:40%;
+    height:150%;
+    background-color:rgb(73, 237, 8);
+    border-radius:15px;
+    padding:20px;
+    margin:20px;
+    display:inline-block;
+}
+#btn{
+    width:50px;
+    height:30px;
+    background-color: rgba(232, 237, 231, 0.725);
+    border-radius:15px;
+    
+}
+#btn:hover{
+    cursor:pointer;
+    background-color:rgba(81, 200, 25, 0.725) ;
+}
+#guessnumber{
+    width:150px;
+    height:30px;
+    border-radius:15px;
+}
+.medium{
+   width:40%;
+    height:150%;
+    background-color:hwb(53 4% 16%);
+    border-radius:15px;
+    padding:20px;
+    margin:30px;
+    display:inline-block;
+}
+#btn1{
+    width:50px;
+    height:30px;
+    background-color: rgba(232, 237, 231, 0.725);
+    border-radius:15px;
+}
+#btn1:hover{
+    cursor:pointer;
+    background-color:rgba(237, 233, 9, 0.725) ;
+}
+#guessnumber1{
+    width:150px;
+    height:30px;
+    border-radius:15px;
+}
+
+.hard{
+   width:40%;
+    height:150%;
+    background-color:hwb(5 15% 22%);
+    border-radius:15px;
+    padding:20px;
+    margin:30px;
+    
+}
+#btn2{
+    width:50px;
+    height:30px;
+    background-color: rgb(226, 216, 216);
+    border-radius:15px;
+}
+#btn2:hover{
+    cursor:pointer;
+    background-color:rgba(220, 9, 9, 0.725) ;
+}
+#guessnumber2{
+    width:150px;
+    height:30px;
+    border-radius:15px;
+}

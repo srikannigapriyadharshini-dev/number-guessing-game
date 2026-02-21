@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>
+    Number guess game
+    </title>
+</head>
+<body>
+    <h1>Number Guessing game</h1>
+    <h3>Are you ready to check your logic + luck?</h3>
+    
+    <div class="easy">
+    <h1>Number Guess Game level : Easy😊</h1>
+    <h4>This is easy level.You guess number from 1 to 10</h4>
+    <h5>It does not take more time</h5>
+    <input id="guessnumber" placeholder="Guess a number">
+    <button id="btn" onclick="checkeasy()">guess</button>
+    <p id="result"></p>
+    <p id="score">Score:0</p>
+    </div>
+
+    <div class="medium">
+    <h1>Number Guess Game level : Medium😒</h1>
+    <h4>This is medium level.You guess number from 1 to 100</h4>
+    <h5>It may takes little time⏰</h5>
+    <input id="guessnumber1" placeholder="Guess a number">
+    <button id="btn1" onclick="checkmedium()">guess</button>
+    <p id="result1"></p>
+    <p id="score1">Score:0</p>
+    </div>
+
+    <div class="hard">
+    <h1>Number Guess Game level : Hard😤</h1>
+    <h4>This is hard level.You guess number from 1 to 500</h4>
+    <h5>⚠️Warning: It may takes more time⏰⏰</h5>
+    <input id="guessnumber2" placeholder="Guess a number">
+    <button id="btn2" onclick="checkhard()">guess</button>
+    <p id="result2"></p>
+    <p id="score2">Score:0</p>
+    </div>
+    
+    
+    <script src="script.js"></script>
+
+
+    
+</body>
+</html>
